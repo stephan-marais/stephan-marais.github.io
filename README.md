@@ -1,1 +1,2 @@
-# stephan-marais.github.io
+# ClutieCoin
+![PiranhaPirate](./img/clutiecoint.jpeg "ClutieCoin")
