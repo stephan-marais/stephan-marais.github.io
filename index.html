@@ -1,4 +1,33 @@
+<html>
 <h1>Welcome to the new home of ClutieCoin!</h1>
 <p>Bidding starts soon!</p>
+<hr>
+<img id="img_nft" src="./img/seed.svg" />
+<hr>
+<!-- 
+<img src="./img/seed.svg" />.<img src="./img/sprout.svg" />
+<hr>
+<img src="./img/sapling.svg" /> .<img src="./img/sapling_sprout.svg" />.<img src="./img/tree.svg" />.<img src="./img/tree_fruit_1.svg" />
+<hr class="solid">
+<img src="./img/tree_fruit_2.svg" />.
+<hr class="solid"> -->
 
-<img src="./img/clutiecoin.jpeg" />
+
+<script>
+    imgs = ["./img/seed.svg","./img/sprout.svg","./img/sapling.svg","./img/sapling_sprout.svg","./img/tree.svg","./img/tree_fruit_1.svg","./img/tree_fruit_2.svg","./img/tree_fruit_3.svg"]
+    var image = document.getElementById("img_nft");
+    
+    const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms))
+    const loop = async () => {
+    for (let i = 0, len = imgs.length; i < len; i++) {
+       
+        
+        image.src = imgs[i];
+        console.log(i)
+        await wait(2000);
+    }    
+    loop()
+}
+loop()
+</script>
+</html>
