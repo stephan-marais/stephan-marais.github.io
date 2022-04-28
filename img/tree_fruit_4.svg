@@ -9,6 +9,7 @@
   <circle cx="90" cy="90" r="10" fill="red" />
   <circle cx="200" cy="70" r="10" fill="red" />
   <circle cx="170" cy="60" r="10" fill="red" />
+  <circle cx="110" cy="40" r="10" fill="red" />
 
   <!-- <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text> -->
 
